@@ -33,7 +33,6 @@ OBS: Se houver muitos usuários, a execução do script pode demorar bastante.
 
 
 Descrição do Script:
-
 Este script PowerShell conecta ao Microsoft Graph para buscar todos os usuários de um domínio específico dentro do Microsoft 365. Ele verifica o status do MFA (Autenticação Multifator) de cada usuário e identifica aqueles que estão com o MFA desabilitado. Para esses usuários, o script também obtém as licenças atribuídas.
 Em seguida, o script gera um relatório em formato HTML listando os usuários com MFA desabilitado, incluindo nome, e-mail (UPN), status do MFA e as licenças. Por fim, esse relatório é enviado por e-mail para destinatários configurados via servidor SMTP.
 
